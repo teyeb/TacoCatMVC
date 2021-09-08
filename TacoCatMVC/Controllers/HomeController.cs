@@ -62,7 +62,7 @@ namespace TacoCatMVC.Controllers
             else
             {
                 palidrome.isPalindrome = false;
-                palidrome.Message = $"Sorry {palidrome.InputWord} is NOT a palindrome";
+                palidrome.Message = $"Oops, sorry {palidrome.InputWord} is NOT a palindrome";
             }
 
             return View(palidrome);
